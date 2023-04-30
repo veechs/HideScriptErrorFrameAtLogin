@@ -1,0 +1,6 @@
+## Interface: 11200
+## Title: !Hide Script Error Frame at Login
+## Notes: Suppress the script error frame at login
+## Version: 1.0
+
+!HideScriptErrorFrameAtLogin.lua
