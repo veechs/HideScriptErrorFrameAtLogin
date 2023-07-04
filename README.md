@@ -4,7 +4,7 @@ TL;DR: Don’t bother installing this unless you’re getting a Lua error at log
 
 ### Why does this exist?
 
-When Vanilla WoW is run in a Windows VM, a huge list of possible resolutions may be offered – more than Blizzard’s UI code can deal with. This causes the following Lua error to pop up at login:
+When Vanilla WoW is run in a Windows VM (like Parallels), a huge list of possible resolutions may be offered – more than Blizzard’s UI code can deal with. This causes the following Lua error to pop up at login:
 
 ![Interface\FrameXML\UIDropDownMenu.lua:156: attempt to concatenate global UIDROPDOWNMENU_OPEN_MENU' (a nil value)](https://github.com/veechs/HideScriptErrorFrameAtLogin/raw/main/LoginError.png)
 
@@ -22,6 +22,7 @@ Use [GitAddonsManager](https://woblight.gitlab.io/overview/gitaddonsmanager/).
 
 1. Download the code (green **Code** button > **Download ZIP**)
 2. Extract the ZIP file
-3. Move the **!HideScriptErrorFrameAtLogin** folder to  **<Path\To\WoW Folder>\Interface\Addons**
+3. Remove **-master** from the name
+4. Move the **!HideScriptErrorFrameAtLogin** folder to  **<Path\To\WoW Folder>\Interface\Addons**
 
 Once you're done, the structure should be **<Path\To\WoW Folder>\Interface\Addons\!HideScriptErrorFrameAtLogin\!HideScriptErrorFrameAtLogin.toc**
