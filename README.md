@@ -30,6 +30,6 @@ Use [GitAddonsManager](https://woblight.gitlab.io/overview/gitaddonsmanager/).
 
 1. Download the code (green **Code** button > **Download ZIP**)
 2. Extract the ZIP file
-3. Move the `!HideScriptErrorFrameAtLogin` folder to **<Path\To\WoW Folder>\Interface\Addons**
+3. Move the **!HideScriptErrorFrameAtLogin** folder to **<Path\To\WoW Folder>\Interface\Addons**
 
 Once you're done, the folder structure should be **<Path\To\WoW Folder>\Interface\Addons\!HideScriptErrorFrameAtLogin\!HideScriptErrorFrameAtLogin.toc**
