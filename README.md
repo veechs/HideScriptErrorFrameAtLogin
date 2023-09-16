@@ -1,4 +1,12 @@
-# HideScriptErrorFrameAtLogin
+# DEPRECATED - Use [Screen Resolution Dropdown Fix](https://github.com/veechs/ScreenResolutionDropdownFix) instead
+In addition to the login error, Screen Resolution Dropdown Fix also patches the Video Options dialog so it's usable with large lists of screen resolutions.
+
+Leaving the repository up in case someone needs it for some other reason.
+
+<br>
+<br>
+
+## Hide Script Error Frame At Login
 
 TL;DR: Don’t bother installing this unless you’re getting a Lua error at login from Blizzard code that other error catching addons don’t handle.
 
